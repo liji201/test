@@ -1,0 +1,20 @@
+class cat(object):
+	def __init__(self,name,age,colo):
+		self.a=name
+		self.b=age
+		self.colo="ji"
+	def eat(self):
+		print(self.colo)
+h=cat(7,8,9)
+
+class dog(cat):
+	def __init__(self,name,age):
+
+		self.a=name
+		self.b=age
+	def ea(self):
+		print("gui")
+g=dog(5,6)
+print(g.a)
+
+
